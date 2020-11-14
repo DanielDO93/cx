@@ -10,7 +10,7 @@ import {
   Label,
   Input,
 } from 'reactstrap'
-
+import AuthService from '../../services/AuthService'
 import API_CCS from '../../services/API_CCS'
 const API = new API_CCS()
 
@@ -21,6 +21,7 @@ class Formulario2View extends Component {
 
   constructor(props) {
     super(props)
+    this.Auth = new AuthService()
     this.state = {
       pregunta1: '',
       pregunta2: '',
@@ -30,6 +31,7 @@ class Formulario2View extends Component {
       pregunta6: '',
       acept: '',
       message: '',
+      id_ccs: this.Auth.getProfile().id_ccs,
     }
   }
 
