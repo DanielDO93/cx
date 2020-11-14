@@ -186,7 +186,7 @@ export default {
     {
       name: 'Evaluación del curso',
       icon: 'icon-tag',
-     
+      url: "/temarioViews/formulario2View",
     },
     
 
