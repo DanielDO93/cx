@@ -3,11 +3,11 @@ import {
   CardBody,
   CardHeader,
   Col,
-  Row,
-  Button,
-  Form,
-  FormGroup,
-  Input,
+   Row,
+  // Button,
+  // Form,
+  // FormGroup,
+  // Input,
 } from 'reactstrap'
 import swal from "sweetalert"
 import actividad1 from '../../assets/img/cx/bg.png'
