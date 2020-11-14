@@ -4,7 +4,7 @@ import diecinueve from "../../assets/img/cx/diecinueve.png";
 
 //import tabla01 from '../../assets/img/ImgEtiquetaTelefonica/tabla01.jpg'
 
-class TemadiecinueveView extends Component {
+class TemaDiecinueveView extends Component {
   loading = () => (
     <div className="animated fadeIn pt-1 text-center">Cargando...</div>
   )
@@ -75,4 +75,4 @@ class TemadiecinueveView extends Component {
     )
   }
 }
-export default TemadiecinueveView
+export default TemaDiecinueveView
