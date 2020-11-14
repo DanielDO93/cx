@@ -220,12 +220,12 @@ export default {
     {
       name: 'Evaluación 1',
       icon: 'icon-puzzle',
-    
+      url: "/temarioViews/Actividad2View",
     },
     {
       name: 'Evaluación 2',
       icon: 'icon-puzzle',
-    
+      url: "/temarioViews/Actividad1View",
     },
     
     {
