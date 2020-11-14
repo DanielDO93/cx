@@ -84,7 +84,7 @@ class Actividad1View extends Component {
         <Row>
           <Col>
             <CardHeader className="">
-              <h2>Evaluación 1: </h2>
+              <h2>Evaluación 2: </h2>
             </CardHeader>
             <CardBody className="">
               <Row>
