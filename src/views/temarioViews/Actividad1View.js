@@ -6,9 +6,9 @@ import {
   Row,
   Button,
   Form,
-  FormGroup,
-  Label,
-  Input,
+  // FormGroup,
+  // Label,
+  // Input,
 } from 'reactstrap'
 import swal from "sweetalert"
 import actividad1 from '../../assets/img/cx/bg.png'
