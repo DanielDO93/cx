@@ -16,14 +16,7 @@ class TemaTreceView extends Component {
         <CardBody className="">
           <Row className="centrado-fila">
             <Col xs="12 mt-3">
-              <h2
-                className="animated slideInUp delay-0 mb-2"
-                style={{ marginBottom: '0px' }}
-              >
-                <b>
-                  ¿Por qué es importante para las empresas?
-                </b>
-              </h2>
+              
               <h3 className="mt-3">
                 ¿Por qué es importante para las empresas hablar de CX?
               </h3>
