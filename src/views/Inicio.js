@@ -46,7 +46,7 @@ import Actividades from './temarioViews/Actividades'
 
 import Actividad1View from './temarioViews/Actividad1View'
 import Actividad2View from './temarioViews/Actividad2View'
-import Actividad3View from './temarioViews/Actividad3View'
+
 
 import Formulario2View from './temarioViews/formulario2View'
 import Fin from './temarioViews/Fin'
@@ -158,17 +158,13 @@ class Inicio extends Component {
             ) : this.state.index === 40 ? (
               <Actividad2View />
             ) : this.state.index === 41 ? (
-              <Actividad3View />
-            ) : this.state.index === 42 ? (
-              <Actividad3View />
-            ) : this.state.index === 43 ? (
               < Formulario2View />
-            ) : this.state.index === 44 ? (
+            ) : this.state.index === 42 ? (
               < Fin />
             ) : null}
           <br />
           <CardFooter>
-            <Navegador handleNavigation={this.setIndex} maxIndex={44} />
+            <Navegador handleNavigation={this.setIndex} maxIndex={42} />
           </CardFooter>
         </Card>
       </div>
