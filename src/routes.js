@@ -17,6 +17,17 @@ const TemaOchoView = React.lazy(() => import('./views/temarioViews/TemaOchoView'
 const TemaNueveView = React.lazy(() => import('./views/temarioViews/TemaNueveView'));
 const TemaDiezView = React.lazy(() => import('./views/temarioViews/TemaDiezView'));
 const TemaOnceView = React.lazy(() => import('./views/temarioViews/TemaOnceView'));
+
+const TemaTreceView = React.lazy(() => import('./views/temarioViews/TemaTreceView'));
+const TemaCatorceView = React.lazy(() => import('./views/temarioViews/TemaCatorceView'));
+const TemaQuiceView = React.lazy(() => import('./views/temarioViews/TemaQuiceView'));
+const TemaDieciseisView = React.lazy(() => import('./views/temarioViews/TemaDieciseisView'));
+
+const TemaDieciochoView = React.lazy(() => import('./views/temarioViews/TemaDieciochoView'));
+const TemaDiecinueveView = React.lazy(() => import('./views/temarioViews/TemaDiecinueveView'));
+const TemaVienteView = React.lazy(() => import('./views/temarioViews/TemaVienteView'));
+const TemaVientiunoView = React.lazy(() => import('./views/temarioViews/TemaVientiunoView'));
+
 const Actividad2View = React.lazy(() => import('./views/temarioViews/Actividad2View'));
 
 
