@@ -24,7 +24,7 @@ const TemaQuiceView = React.lazy(() => import('./views/temarioViews/TemaQuiceVie
 const TemaDieciseisView = React.lazy(() => import('./views/temarioViews/TemaDieciseisView'));
 
 const TemaDieciochoView = React.lazy(() => import('./views/temarioViews/TemaDieciochoView'));
-// const TemaDiecinueveView = React.lazy(() => import('./views/temarioViews/TemaDiecinueveView'));
+ const TemaDiecinueveView = React.lazy(() => import('./views/temarioViews/TemaDiecinueveView'));
 const TemaVienteView = React.lazy(() => import('./views/temarioViews/TemaVienteView'));
 const TemaVientiunoView = React.lazy(() => import('./views/temarioViews/TemaVientiunoView'));
 
@@ -57,7 +57,7 @@ const routes = [
   { path: '/temarioViews/TemaDieciseisView', name: '¿Por qué es importante para las empresas?', component: TemaDieciseisView },
 
   { path: '/temarioViews/TemaDieciochoView', name: '¿Por qué es importante para las empresas? ', component: TemaDieciochoView },
-  // { path: '/temarioViews/TemaDiecinueveView', name: '¿Por qué es importante para las empresas?', component: TemaDiecinueveView },
+  { path: '/temarioViews/TemaDiecinueveView', name: '¿Por qué es importante para las empresas?', component: TemaDiecinueveView },
   { path: '/temarioViews/TemaVienteView', name: '¿Por qué es importante para las empresas?', component: TemaVienteView },
   { path: '/temarioViews/TemaVientiunoView', name: '¿Por qué es importante para las empresas?', component: TemaVientiunoView },
 
