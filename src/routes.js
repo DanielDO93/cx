@@ -24,7 +24,7 @@ const TemaQuiceView = React.lazy(() => import('./views/temarioViews/TemaQuiceVie
 const TemaDieciseisView = React.lazy(() => import('./views/temarioViews/TemaDieciseisView'));
 
 const TemaDieciochoView = React.lazy(() => import('./views/temarioViews/TemaDieciochoView'));
- const TemaDiecinueveView = React.lazy(() => import('./views/temarioViews/TemaDiecinueveView'));
+const TemaDiecinueveView = React.lazy(() => import('./views/temarioViews/TemaDiecinueveView'));
 const TemaVienteView = React.lazy(() => import('./views/temarioViews/TemaVienteView'));
 const TemaVientiunoView = React.lazy(() => import('./views/temarioViews/TemaVientiunoView'));
 
