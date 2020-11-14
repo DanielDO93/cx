@@ -94,8 +94,7 @@ class ActividadView extends Component {
               <Row>
                 <Col xs="12">
                   <p>
-                    1.- Atrévete y tacha las palabras que contengan la letra{' '}
-                    <b>G</b> mal escrita.
+                    Aqui va actividad 1...
                   </p>
                 </Col>
                 <Col xs="12">
@@ -112,7 +111,7 @@ class ActividadView extends Component {
                             alt="actividad1 "
                             className="img-fluid animated  bounceInRight delay-1s"
                           />
-                          <FormGroup
+                          {/* <FormGroup
                             tag="fieldset"
                             style={{ marginBottom: '0px' }}
                           >
@@ -288,7 +287,7 @@ class ActividadView extends Component {
                                 </div>
                               </div>
                             </FormGroup>
-                          </FormGroup>
+                          </FormGroup> */}
                         </div>
                         <div className="centrado-fila mt-3">
                           <Button
