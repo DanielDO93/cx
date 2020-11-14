@@ -24,152 +24,197 @@ export default {
     {
       name: '1. ¿Qué significa experiencia al cliente? > P1',
       icon: 'icon-tag',
-      url: "/temarioViews/TemaDosView",
-    },
-    {
-      name: '1. ¿Qué significa experiencia al cliente? > P2',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaTresView",
-    },
-    {
-      name: '1. ¿Qué significa experiencia al cliente? > P3',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaCuatroView",
-    },
-    {
-      name: '1. ¿Qué significa experiencia al cliente? > P4',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaCincoView",
-    },
-    {
-      name: '1. ¿Qué significa experiencia al cliente? > P5',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaSeisView",
-    },
-    {
-      name: '1. ¿Qué significa experiencia al cliente? > P6',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaSieteView",
-    },
-    {
-      name: '1. ¿Qué significa experiencia al cliente? > P7',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaOchoView",
-    },
-    {
-      name: '1. ¿Qué significa experiencia al cliente? > P8',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaNueveView",
-    },
-    {
-      name: '1. ¿Qué significa experiencia al cliente? > P9',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaDiezView",
-    },
-    {
-      name: '1. ¿Qué significa experiencia al cliente? > P10 ',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaOnceView",
-    },
-    {
-      name: '2. ¿Por qué es importante para las empresas? > P1',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaTreceView",
-    },
-    {
-      name: '2. ¿Por qué es importante para las empresas? > P2',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaCatorceView",
+      children: [
+        {
+          name: "Experiencia al cliente (CX) > P1",
+          url: "/temarioViews/TemaDosView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Experiencia al cliente (CX) > P2",
+          url: "/temarioViews/TemaTresView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Experiencia al cliente (CX) > P3",
+          url: "/temarioViews/TemaCuatroView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Experiencia al cliente (CX) > P4",
+          url: "/temarioViews/TemaCincoView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Experiencia al cliente (CX) > P5",
+          url: "/temarioViews/TemaSeisView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Experiencia al cliente (CX) > P6",
+          url: "/temarioViews/TemaSieteView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Experiencia al cliente (CX) > P7",
+          url: "/temarioViews/TemaOchoView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Experiencia al cliente (CX) > P8",
+          url: "/temarioViews/TemaNueveView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Experiencia al cliente (CX) > P9",
+          url: "/temarioViews/TemaDiezView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Experiencia al cliente (CX) > P10",
+          url: "/temarioViews/TemaOnceView",
+          icon: "icon-tag",
+        },
+      ],
     },
 
-    {
-      name: '2. ¿Por qué es importante para las empresas? > P3',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaQuiceView",
-    },
-    {
-      name: '2. ¿Por qué es importante para las empresas? > P4',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaDieciseisView",
-    },
 
-    {
-      name: '3. Ventajas de una Experiencia al Cliente > P1',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaDieciochoView",
-    },
-    {
-      name: '3. Ventajas de una Experiencia al Cliente > P2',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaDiecinueveView",
-    },
-    {
-      name: '3. Ventajas de una Experiencia al Cliente > P3',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaVienteView",
-    },
-    {
-      name: '3. Ventajas de una Experiencia al Cliente > P4',
-      icon: 'icon-tag',
-      url: "/temarioViews/TemaVientiunoView",
-    },
-
-    {
-      name: '4. Factores que causan una mala experiencia al cliente > P1',
-      icon: 'icon-tag',
-     
-    },
-    {
-      name: '4. Factores que causan una mala experiencia al cliente > P2',
-      icon: 'icon-tag',
-     
-    },
-    {
-      name: '4. Factores que causan una mala experiencia al cliente  > P3',
-      icon: 'icon-tag',
-     
-    },
-    {
-      name: '5. Características de una estrategia de Experiencia al cliente > P1',
-      icon: 'icon-tag',
-     
-    },
-    {
-      name: '5. Características de una estrategia de Experiencia al cliente > P2',
-      icon: 'icon-tag',
-     
-    },
-    {
-      name: '5. Características de una estrategia de Experiencia al cliente > P3',
-      icon: 'icon-tag',
-     
-    },
-    {
-      name: '5. Características de una estrategia de Experiencia al cliente > P4',
-      icon: 'icon-tag',
-     
-    },
-    {
-      name: '5. Características de una estrategia de Experiencia al cliente > P5',
-      icon: 'icon-tag',
-     
-    },
-    {
-      name: '5. Características de una estrategia de Experiencia al cliente > P6',
-      icon: 'icon-tag',
-     
-    },
-    {
-      name: '5. Características de una estrategia de Experiencia al cliente > P7',
-      icon: 'icon-tag',
-     
-    },
-    {
-      name: '5. Características de una estrategia de Experiencia al cliente > P8',
-      icon: 'icon-tag',
-     
-    },
    
+    {
+      name: '2. ¿Por qué es importante para las empresas?',
+      icon: 'icon-tag',
+      children: [
+        {
+          name: "¿Por qué es importante para las empresas hablar de CX? > P1",
+          url: "/temarioViews/TemaTreceView",
+          icon: "icon-tag",
+        },
+        {
+          name: "¿Por qué es importante para las empresas hablar de CX? > P2",
+          url: "/temarioViews/TemaCatorceView",
+          icon: "icon-tag",
+        },
+        {
+          name: "¿Por qué es importante para las empresas hablar de CX? > P3",
+          url: "/temarioViews/TemaQuiceView",
+          icon: "icon-tag",
+        },
+        {
+          name: "¿Por qué es importante para las empresas hablar de CX? > P4",
+          url: "/temarioViews/TemaDieciseisView",
+          icon: "icon-tag",
+        },
+      ]
+     ,
+    },
+
+    {
+      name: '3. Ventajas de una Experiencia al Cliente',
+      icon: 'icon-tag',
+      children: [
+        {
+          name: "¿Ventajas de una Experiencia al Cliente > P1",
+          url: "/temarioViews/TemaDieciochoView",
+          icon: "icon-tag",
+        },
+        {
+          name: "¿Ventajas de una Experiencia al Cliente > P2",
+          url: "/temarioViews/TemaDiecinueveView",
+          icon: "icon-tag",
+        },
+        {
+          name: "¿Ventajas de una Experiencia al Cliente > P3",
+          url: "/temarioViews/TemaVienteView",
+          icon: "icon-tag",
+        },
+        {
+          name: "¿Ventajas de una Experiencia al Cliente > P4",
+          url: "/temarioViews/TemaVientiunoView",
+          icon: "icon-tag",
+        },
+      ]
+     ,
+    },
+
+    {
+      name: '4. Factores que causan una mala experiencia al cliente',
+      icon: 'icon-tag',
+      children: [
+        {
+          name: "Factores que causan una mala experiencia al cliente > P1",
+          url: "/temarioViews/TemaVeintitresView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Factores que causan una mala experiencia al cliente > P2",
+          url: "/temarioViews/TemaVeinticuatroView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Características de una estrategia de Experiencia al Cliente",
+          url: "/temarioViews/TemaVeinticincoView",
+          icon: "icon-tag",
+        },
+      ]
+     ,
+    },
+
+    {
+      name: '5. Características de una estrategia de Experiencia al cliente',
+      icon: 'icon-tag',
+      children: [
+        {
+          name: "Características de una estrategia de Experiencia al Cliente > P1",
+          url: "/temarioViews/TemaVeintisieteView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Características de una estrategia de Experiencia al Cliente > P2",
+          url: "/temarioViews/TemaVeintiochoView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Características de una estrategia de Experiencia al Cliente > P3",
+          url: "/temarioViews/TemaVeintinueveView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Características de una estrategia de Experiencia al Cliente > P4",
+          url: "/temarioViews/TemaTreintaView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Características de una estrategia de Experiencia al Cliente > P5",
+          url: "/temarioViews/TemaTreintayunoView",
+          icon: "icon-tag",
+        },
+
+
+        {
+          name: "Listar los puntos clave de contacto entre empresa y cliente",
+          url: "/temarioViews/TemaTreintaydosView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Características de una estrategia de Experiencia al Cliente > P6",
+          url: "/temarioViews/TemaTreintaytresView",
+          icon: "icon-tag",
+        },
+        {
+          name: "Características de una estrategia de Experiencia al Cliente > P7",
+          url: "/temarioViews/TemaTreintaycuatroView",
+          icon: "icon-tag",
+        },
+      ]
+     ,
+    },
+
+    
+
+    
+    
+    
+    
 
    
     {
