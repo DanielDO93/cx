@@ -8,28 +8,33 @@ const TemarioView = React.lazy(() => import('./views/temarioViews/TemarioView'))
 const IntroduccionView = React.lazy(() => import('./views/temarioViews/IntroduccionView'));
 
 const TemaDosView = React.lazy(() => import('./views/temarioViews/TemaDosView'));
-const TemaTresView = React.lazy(() => import('./views/temarioViews/TemaTresView'));
-const TemaCuatroView = React.lazy(() => import('./views/temarioViews/TemaCuatroView'));
-const TemaCincoView = React.lazy(() => import('./views/temarioViews/TemaCincoView'));
-const TemaSeisView = React.lazy(() => import('./views/temarioViews/TemaSeisView'));
-const TemaSieteView = React.lazy(() => import('./views/temarioViews/TemaSieteView'));
-const TemaOchoView = React.lazy(() => import('./views/temarioViews/TemaOchoView'));
-const TemaNueveView = React.lazy(() => import('./views/temarioViews/TemaNueveView'));
-const TemaDiezView = React.lazy(() => import('./views/temarioViews/TemaDiezView'));
-const TemaOnceView = React.lazy(() => import('./views/temarioViews/TemaOnceView'));
+// const TemaTresView = React.lazy(() => import('./views/temarioViews/TemaTresView'));
+// const TemaCuatroView = React.lazy(() => import('./views/temarioViews/TemaCuatroView'));
+// const TemaCincoView = React.lazy(() => import('./views/temarioViews/TemaCincoView'));
+// const TemaSeisView = React.lazy(() => import('./views/temarioViews/TemaSeisView'));
+// const TemaSieteView = React.lazy(() => import('./views/temarioViews/TemaSieteView'));
+// const TemaOchoView = React.lazy(() => import('./views/temarioViews/TemaOchoView'));
+// const TemaNueveView = React.lazy(() => import('./views/temarioViews/TemaNueveView'));
+// const TemaDiezView = React.lazy(() => import('./views/temarioViews/TemaDiezView'));
+// const TemaOnceView = React.lazy(() => import('./views/temarioViews/TemaOnceView'));
 
 const TemaTreceView = React.lazy(() => import('./views/temarioViews/TemaTreceView'));
-const TemaCatorceView = React.lazy(() => import('./views/temarioViews/TemaCatorceView'));
-const TemaQuiceView = React.lazy(() => import('./views/temarioViews/TemaQuiceView'));
-const TemaDieciseisView = React.lazy(() => import('./views/temarioViews/TemaDieciseisView'));
+// const TemaCatorceView = React.lazy(() => import('./views/temarioViews/TemaCatorceView'));
+// const TemaQuiceView = React.lazy(() => import('./views/temarioViews/TemaQuiceView'));
+// const TemaDieciseisView = React.lazy(() => import('./views/temarioViews/TemaDieciseisView'));
 
 const TemaDieciochoView = React.lazy(() => import('./views/temarioViews/TemaDieciochoView'));
-const TemaDiecinueveView = React.lazy(() => import('./views/temarioViews/TemadiecinueveView'));
-const TemaVienteView = React.lazy(() => import('./views/temarioViews/TemaVienteView'));
-const TemaVientiunoView = React.lazy(() => import('./views/temarioViews/TemaVientiunoView'));
+// const TemaDiecinueveView = React.lazy(() => import('./views/temarioViews/TemaDiecinueveView'));
+// const TemaVienteView = React.lazy(() => import('./views/temarioViews/TemaVienteView'));
+// const TemaVientiunoView = React.lazy(() => import('./views/temarioViews/TemaVientiunoView'));
+
+const TemaVeintitresView = React.lazy(() => import('./views/temarioViews/TemaVeintitresView'));
+const TemaVeintisieteView = React.lazy(() => import('./views/temarioViews/TemaVeintisieteView'));
 
 const Actividad2View = React.lazy(() => import('./views/temarioViews/Actividad2View'));
+const Actividad1View = React.lazy(() => import('./views/temarioViews/Actividad1View'));
 
+const Formulario2View = React.lazy(() => import('./views/temarioViews/Formulario2View'));
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
@@ -40,29 +45,42 @@ const routes = [
   { path: '/temarioViews/IntroduccionView', name: 'Introducción', component: IntroduccionView },
 
   { path: '/temarioViews/TemaDosView', name: '¿Qué significa experiencia al cliente? ', component: TemaDosView },
-  { path: '/temarioViews/TemaTresView', name: '¿Qué significa experiencia al cliente?', component: TemaTresView },
-  { path: '/temarioViews/TemaCuatroView', name: '¿Qué significa experiencia al cliente?', component: TemaCuatroView },
-  { path: '/temarioViews/TemaCincoView', name: '¿Qué significa experiencia al cliente?', component: TemaCincoView },
-  { path: '/temarioViews/TemaSeisView', name: '¿Qué significa experiencia al cliente?', component: TemaSeisView },
-  { path: '/temarioViews/TemaSieteView', name: '¿Qué significa experiencia al cliente?', component: TemaSieteView },
-  { path: '/temarioViews/TemaOchoView', name: '¿Qué significa experiencia al cliente?', component: TemaOchoView },
-  { path: '/temarioViews/TemaNueveView', name: '¿Qué significa experiencia al cliente?', component: TemaNueveView },
-  { path: '/temarioViews/TemaDiezView', name: '¿Qué significa experiencia al cliente?', component: TemaDiezView },
-  { path: '/temarioViews/TemaOnceView', name: '¿Qué significa experiencia al cliente?', component: TemaOnceView },
+  // { path: '/temarioViews/TemaTresView', name: '¿Qué significa experiencia al cliente?', component: TemaTresView },
+  // { path: '/temarioViews/TemaCuatroView', name: '¿Qué significa experiencia al cliente?', component: TemaCuatroView },
+  // { path: '/temarioViews/TemaCincoView', name: '¿Qué significa experiencia al cliente?', component: TemaCincoView },
+  // { path: '/temarioViews/TemaSeisView', name: '¿Qué significa experiencia al cliente?', component: TemaSeisView },
+  // { path: '/temarioViews/TemaSieteView', name: '¿Qué significa experiencia al cliente?', component: TemaSieteView },
+  // { path: '/temarioViews/TemaOchoView', name: '¿Qué significa experiencia al cliente?', component: TemaOchoView },
+  // { path: '/temarioViews/TemaNueveView', name: '¿Qué significa experiencia al cliente?', component: TemaNueveView },
+  // { path: '/temarioViews/TemaDiezView', name: '¿Qué significa experiencia al cliente?', component: TemaDiezView },
+  // { path: '/temarioViews/TemaOnceView', name: '¿Qué significa experiencia al cliente?', component: TemaOnceView },
 
 
   { path: '/temarioViews/TemaTreceView', name: '¿Por qué es importante para las empresas? ', component: TemaTreceView },
-  { path: '/temarioViews/TemaCatorceView', name: '¿Por qué es importante para las empresas?', component: TemaCatorceView },
-  { path: '/temarioViews/TemaQuiceView', name: '¿Por qué es importante para las empresas?', component: TemaQuiceView },
-  { path: '/temarioViews/TemaDieciseisView', name: '¿Por qué es importante para las empresas?', component: TemaDieciseisView },
+  // { path: '/temarioViews/TemaCatorceView', name: '¿Por qué es importante para las empresas?', component: TemaCatorceView },
+  // { path: '/temarioViews/TemaQuiceView', name: '¿Por qué es importante para las empresas?', component: TemaQuiceView },
+  // { path: '/temarioViews/TemaDieciseisView', name: '¿Por qué es importante para las empresas?', component: TemaDieciseisView },
 
-  { path: '/temarioViews/TemaDieciochoView', name: '¿Por qué es importante para las empresas? ', component: TemaDieciochoView },
-  { path: '/temarioViews/TemaDiecinueveView', name: '¿Por qué es importante para las empresas?', component: TemaDiecinueveView },
-  { path: '/temarioViews/TemaVienteView', name: '¿Por qué es importante para las empresas?', component: TemaVienteView },
-  { path: '/temarioViews/TemaVientiunoView', name: '¿Por qué es importante para las empresas?', component: TemaVientiunoView },
+  { path: '/temarioViews/TemaDieciochoView', name: 'Ventajas de una Experiencia al Cliente ', component: TemaDieciochoView },
+  // { path: '/temarioViews/TemaDiecinueveView', name: '¿Por qué es importante para las empresas?', component: TemaDiecinueveView },
+  // { path: '/temarioViews/TemaVienteView', name: '¿Por qué es importante para las empresas?', component: TemaVienteView },
+  // { path: '/temarioViews/TemaVientiunoView', name: '¿Por qué es importante para las empresas?', component: TemaVientiunoView },
 
-  { path: '/temarioViews/Actividad2View', name: 'Actividad', component: Actividad2View },
+  { path: '/temarioViews/TemaVeintitresView', name: 'Factores que causan una mala experiencia al cliente ', component: TemaVeintitresView },
 
+
+
+  { path: '/temarioViews/TemaVeintisieteView', name: 'Características de una estrategia de Experiencia al cliente', component: TemaVeintisieteView },
+
+
+  
+  { path: '/temarioViews/Actividad2View', name: 'Actividad 1', component: Actividad2View },
+  { path: '/temarioViews/Actividad1View', name: 'Actividad 2', component: Actividad1View },
+
+
+{ path: '/temarioViews/Formulario2View', name: 'Evaluación del curso', component: Formulario2View },
+
+  
 ];
 
 
