@@ -44,9 +44,8 @@ import TemaTreintaytresView from './temarioViews/TemaTreintaytresView'
 import TemaTreintaycuatroView from './temarioViews/TemaTreintaycuatroView'
 import Actividades from './temarioViews/Actividades'
 
-import Actividad1View from './temarioViews/Actividad1View'
 import Actividad2View from './temarioViews/Actividad2View'
-
+import Actividad1View from './temarioViews/Actividad1View'
 
 import Formulario2View from './temarioViews/formulario2View'
 import Fin from './temarioViews/Fin'
@@ -154,9 +153,9 @@ class Inicio extends Component {
             ) : this.state.index === 38 ? (
               <Actividades />
             ) : this.state.index === 39 ? (
-              <Actividad1View />
-            ) : this.state.index === 40 ? (
               <Actividad2View />
+            ) : this.state.index === 40 ? (
+              <Actividad1View />
             ) : this.state.index === 41 ? (
               < Formulario2View />
             ) : this.state.index === 42 ? (
