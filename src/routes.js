@@ -61,7 +61,6 @@ const routes = [
   { path: '/temarioViews/TemaVienteView', name: '¿Por qué es importante para las empresas?', component: TemaVienteView },
   { path: '/temarioViews/TemaVientiunoView', name: '¿Por qué es importante para las empresas?', component: TemaVientiunoView },
 
-
   { path: '/temarioViews/Actividad2View', name: 'Actividad', component: Actividad2View },
 
 ];
