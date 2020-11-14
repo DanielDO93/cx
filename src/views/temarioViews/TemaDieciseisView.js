@@ -24,18 +24,7 @@ class TemaDieciseisView extends Component {
           <h3>CX</h3>
         </CardHeader>
         <CardBody className="">
-          <Row className="centrado-fila">
-            <Col xs="12 mt-3">
-              <h2
-                className="animated slideInUp delay-0 mb-2"
-                style={{ marginBottom: '0px' }}
-              >
-                <b>
-                  ¿Por qué es importante para las empresas?
-                </b>
-              </h2>
-            </Col>
-          </Row>
+         
           <Row>
             <Col xs="12" className=" mt-3">
               <h3>
