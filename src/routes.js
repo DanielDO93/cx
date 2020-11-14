@@ -34,7 +34,7 @@ const TemaVeintisieteView = React.lazy(() => import('./views/temarioViews/TemaVe
 const Actividad2View = React.lazy(() => import('./views/temarioViews/Actividad2View'));
 const Actividad1View = React.lazy(() => import('./views/temarioViews/Actividad1View'));
 
-const Formulario2View = React.lazy(() => import('./views/temarioViews/Formulario2View'));
+const Formulario2View = React.lazy(() => import('./views/temarioViews/formulario2View'));
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
@@ -78,7 +78,7 @@ const routes = [
   { path: '/temarioViews/Actividad1View', name: 'Actividad 2', component: Actividad1View },
 
 
-{ path: '/temarioViews/Formulario2View', name: 'Evaluación del curso', component: Formulario2View },
+{ path: '/temarioViews/formulario2View', name: 'Evaluación del curso', component: Formulario2View },
 
   
 ];
