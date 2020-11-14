@@ -47,7 +47,7 @@ import Actividades from './temarioViews/Actividades'
 import Actividad2View from './temarioViews/Actividad2View'
 import Actividad1View from './temarioViews/Actividad1View'
 
-import Formulario2View from './temarioViews/Formulario2View'
+import Formulario2View from './temarioViews/formulario2View'
 import Fin from './temarioViews/Fin'
 
 //import RecapitulacionView from './temarioViews/RecapitulacionView'
