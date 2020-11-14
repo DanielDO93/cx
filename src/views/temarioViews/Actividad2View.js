@@ -4,49 +4,21 @@ import {
   CardHeader,
   Col,
   Row,
-  Button,
+ 
   Form,
   // FormGroup,
   // Label,
   // Input,
 } from 'reactstrap'
-import swal from "sweetalert"
-import AuthService from '../../services/AuthService'
-import actividad2 from '../../assets/img/cx/bg.png'
-import API_CCS from '../../services/API_CCS'
-const API = new API_CCS()
+import Arrastrables from './componentsExtras/Arrastrables'
+
 
 class ActividadView extends Component {
   loading = () => (
     <div className="animated fadeIn pt-1 text-center">Cargando...</div>
   )
 
-  constructor(props) {
-    super(props)
-    this.Auth = new AuthService()
-    this.state = {
-      palabra1Acuerto1: '',
-      palabra1Acuerto2: '',
-      palabra1Acuerto3: '',
-      palabra2Acuerto1: '',
-      palabra2Acuerto2: '',
-      palabra2Acuerto3: '',
-      palabra3Acuerto1: '',
-      palabra3Acuerto2: '',
-      palabra3Acuerto3: '',
-      palabra4Acuerto1: '',
-      palabra4Acuerto2: '',
-      palabra4Acuerto3: '',
-      palabra5Acuerto1: '',
-      palabra5Acuerto2: '',
-      palabra5Acuerto3: '',
-      palabra6Acuerto1: '',
-      palabra6Acuerto2: '',
-      palabra6Acuerto3: '',
-      id_ccs: this.Auth.getProfile().id_ccs,
-      form: 'usoG-2',
-    }
-  }
+
 
   onChange(e) {
     this.setState({
@@ -54,41 +26,7 @@ class ActividadView extends Component {
     })
   }
 
-  async onSave(e) {
-    try {
-      var respuesta = await API.guardaActividad(this.state);
 
-      swal({
-        title: "Status Actividad",
-        text: "Se guardo la actividad: 2, con id: " + respuesta[0].id,
-        icon: "success",
-        dangerMode: true,
-        button: {
-          text: "Aceptar",
-          value: true,
-          visible: true,
-          className: "btn btn-primary",
-          reset: true,
-        },
-      });
-      
-      // alert("Se guardo la actividad: 1, con id: " + respuesta[0].id);
-    } catch (err) {
-      swal({
-        title: "Status Actividad",
-        text: "No se guardo la actividad: 2, Intenta de nuevo. ",
-        icon: "error",
-        dangerMode: true,
-        button: {
-          text: "Cerrar",
-          value: true,
-          visible: true,
-          className: "btn btn-primary ",
-        },
-      });
-      console.log("loggea si hay un error");
-    }
-  }
 
   render() {
     return (
@@ -100,23 +38,19 @@ class ActividadView extends Component {
             </CardHeader>
             <CardBody className="">
               <Row className="centrado-fila">
-                <Col xs="9">
+                <Col xs="12">
                   <p>
-                   aquui va actividad 2
+                    Se mencionaron algunos y su significado; Relaciona la columna de la izquierda de los conceptos
+                    claves de CX con las descripciones del lado derecho de acuerdo con su significado:
                   </p>
                 </Col>
-                <Col xs="3">
-                  <img
-                    src={actividad2}
-                    style={{ width: 150 }}
-                    alt="actividad2 "
-                    className="img-fluid animated  bounceInRight delay-1s"
-                  />
-                </Col>
+
               </Row>
 
               <Form>
+
                 <div className="cajaA2" style={{ backgroundColor: '#d5d4d8' }}>
+                  <Arrastrables />
                   {/* <FormGroup>
                     <Row>
                       <Col xs="4">
@@ -338,17 +272,14 @@ class ActividadView extends Component {
                     </Row>
                   </FormGroup> */}
                 </div>
-                
-                <div className="centrado-fila mt-3">
-                  <Button color="primary" onClick={this.onSave.bind(this)}>
-                    Enviar
-                  </Button>
-                </div>
+
+
               </Form>
 
               <div>{/* <p>{JSON.stringify(this.state)}</p> */}</div>
             </CardBody>
           </Col>
+
         </Row>
       </div>
     )
