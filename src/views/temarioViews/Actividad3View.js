@@ -92,7 +92,7 @@ class Actividad3View extends Component {
             <CardBody className="">
               <Row>
                 <Col xs="12">
-                  <p>3.-  Completa con G o J las palabras siguientes:</p>
+                  aqui va actividad 3
                 </Col>
                 <Col xs="12">
                   <Row className="centrado-fila">
@@ -103,7 +103,7 @@ class Actividad3View extends Component {
                       className="img-fluid animated  bounceInRight delay-1s"
                     />
                     <Col xs="12" sm="9" md="5">
-                      <Form>
+                      {/* <Form>
                         <div
                           className="cajaA2"
                           style={{ backgroundColor: '#d5d4d8' }}
@@ -378,7 +378,7 @@ class Actividad3View extends Component {
                             Enviar
                           </Button>
                         </div>
-                      </Form>
+                      </Form> */}
                     </Col>
                   </Row>
                 </Col>
