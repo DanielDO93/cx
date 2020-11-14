@@ -102,9 +102,7 @@ class ActividadView extends Component {
               <Row className="centrado-fila">
                 <Col xs="9">
                   <p>
-                    2.- Sabrías escribir palabras que acaban en <b>ger</b>, 
-                    <b>gir</b>, <b>giar</b> y otras palabras que acaben en{' '}
-                    <b>gia</b> y <b>gio</b>. Pon tres ejemplos de cada una.
+                   aquui va actividad 2
                   </p>
                 </Col>
                 <Col xs="3">
@@ -119,7 +117,7 @@ class ActividadView extends Component {
 
               <Form>
                 <div className="cajaA2" style={{ backgroundColor: '#d5d4d8' }}>
-                  <FormGroup>
+                  {/* <FormGroup>
                     <Row>
                       <Col xs="4">
                         <Label for="palabra1Acuerto1">
@@ -338,7 +336,7 @@ class ActividadView extends Component {
                         />
                       </Col>
                     </Row>
-                  </FormGroup>
+                  </FormGroup> */}
                 </div>
                 
                 <div className="centrado-fila mt-3">
