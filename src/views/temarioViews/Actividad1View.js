@@ -88,14 +88,19 @@ class Actividad1View extends Component {
             </CardHeader>
             <CardBody className="">
               <Row>
-
+                <Col xs="12">
+                  <p>
+                    Responde las siguientes preguntas de acuerdo los principales conceptos de la Experiencia al
+                    cliente
+                </p>
+                </Col>
                 <Col xs="12">
                   <Row className="centrado-fila">
-                    <Col xs="12" sm="9" md="8">
+                    <Col xs="12" sm="11" md="10">
                       <Form>
                         <div
                           className="cajaGris mt-3"
-                          style={{ backgroundColor: "#d5d4d8" }}
+                          style={{ backgroundColor: "#d5d4d8", paddingLeft:"35px",paddingRight:"35px" }}
                         >
                           <FormGroup tag="fieldset" row className="text-justify">
                             <legend className="col-form-label ">
@@ -158,7 +163,7 @@ class Actividad1View extends Component {
 
                         <div
                           className="cajaGris mt-3 "
-                          style={{ backgroundColor: "#d5d4d8" }}
+                          style={{ backgroundColor: "#d5d4d8", paddingLeft:"35px",paddingRight:"35px" }}
                         >
                           <FormGroup tag="fieldset" row className="text-justify">
                             <legend className="col-form-label ">
@@ -223,7 +228,7 @@ class Actividad1View extends Component {
 
                         <div
                           className="cajaGris mt-3 "
-                          style={{ backgroundColor: "#d5d4d8" }}
+                          style={{ backgroundColor: "#d5d4d8", paddingLeft:"35px",paddingRight:"35px" }}
                         >
                           <FormGroup tag="fieldset" row className="text-justify">
                             <legend className="col-form-label ">
@@ -287,7 +292,7 @@ class Actividad1View extends Component {
 
                         <div
                           className="cajaGris mt-3 "
-                          style={{ backgroundColor: "#d5d4d8" }}
+                          style={{ backgroundColor: "#d5d4d8", paddingLeft:"35px",paddingRight:"35px" }}
                         >
                           <FormGroup tag="fieldset" row className="text-justify">
                             <legend className="col-form-label ">
@@ -336,7 +341,7 @@ class Actividad1View extends Component {
 
                         <div
                           className="cajaGris mt-3 "
-                          style={{ backgroundColor: "#d5d4d8" }}
+                          style={{ backgroundColor: "#d5d4d8", paddingLeft:"35px",paddingRight:"35px" }}
                         >
                           <FormGroup tag="fieldset" row className="text-justify">
                             <legend className="col-form-label ">
@@ -386,7 +391,7 @@ class Actividad1View extends Component {
 
                         <div
                           className="cajaGris mt-3 "
-                          style={{ backgroundColor: "#d5d4d8" }}
+                          style={{ backgroundColor: "#d5d4d8", paddingLeft:"35px",paddingRight:"35px" }}
                         >
                           <FormGroup tag="fieldset" row className="text-justify">
                             <legend className="col-form-label ">
@@ -435,12 +440,12 @@ class Actividad1View extends Component {
 
                         <div
                           className="cajaGris mt-3 "
-                          style={{ backgroundColor: "#d5d4d8" }}
+                          style={{ backgroundColor: "#d5d4d8", paddingLeft:"35px",paddingRight:"35px" }}
                         >
                           <Col xs="12">
                             <Label for="texto1">
-                              <b>7.	Menciona y explica tres ventajas de la Experiencia al cliente:  </b> 
-                        </Label>
+                              <b>7.	Menciona y explica tres ventajas de la Experiencia al cliente:  </b>
+                            </Label>
                             <Input
                               type="textarea"
                               name="texto1"
@@ -450,10 +455,6 @@ class Actividad1View extends Component {
                             />
                           </Col>
                         </div>
-
-
-
-
                         <div className="centrado-fila mt-3">
                           <Button
                             color="primary"
