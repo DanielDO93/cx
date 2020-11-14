@@ -26,7 +26,7 @@ import TemaQuiceView from './temarioViews/TemaQuiceView'
 import TemaDieciseisView from './temarioViews/TemaDieciseisView'
 import TemaDiescisieteView from './temarioViews/TemaDiescisieteView'
 import TemaDieciochoView from './temarioViews/TemaDieciochoView'
-import TemadiecinueveView from './temarioViews/TemadiecinueveView'
+import TemaDiecinueveView from './temarioViews/TemaDiecinueveView'
 import TemaVienteView from './temarioViews/TemaVienteView'
 import TemaVientiunoView from './temarioViews/TemaVientiunoView'
 import TemaVeintidosView from './temarioViews/TemaVeintidosView'
@@ -120,7 +120,7 @@ class Inicio extends Component {
             ) : this.state.index === 21 ? (
               <TemaDieciochoView />
             ) : this.state.index === 22 ? (
-              <TemadiecinueveView />
+              <TemaDiecinueveView />
             ) : this.state.index === 23 ? (
               <TemaVienteView />
             ) : this.state.index === 24 ? (
