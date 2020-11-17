@@ -38,7 +38,7 @@ class Arrastrables extends Component {
       list5: [],
 
       id_ccs: this.Auth.getProfile().id_ccs,
-      form: 'usoG-1',
+      form: 'CX-1',
     }
   }
 
